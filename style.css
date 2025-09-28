@@ -817,6 +817,12 @@ body, h1, h2, h3, h4, h5, h6, p, span {
 	margin: 75px 0
 }
 
+@media (max-width: 991px) {
+	.footer-social {
+		margin: 30px auto 6px auto;
+	}
+}
+
 .footer-social p {
 	color: white;
 	margin-bottom: 15px;
@@ -846,6 +852,13 @@ body, h1, h2, h3, h4, h5, h6, p, span {
 
 .footer-address {
 	margin: 60px auto 0 90px;
+}
+
+@media (max-width: 991px) {
+	.footer-address {
+		margin: 0 auto 10px auto;
+		text-align: center
+	}
 }
 
 .footer-address p {
